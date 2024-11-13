@@ -23,8 +23,18 @@ class FooterComponent extends Component {
           <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/shebah-mimano-72704519b/">
             <FaLinkedin /> LinkedIn
           </a>
+<<<<<<< HEAD
           <a target="_blank" class="instagram" href="https://www.instagram.com/queeny_shebah/">
             <FaInstagram /> Instagram
+=======
+           /
+          <a target="_blank" href="https://www.xing.com/profile/Sara_Steiert">
+            Xing
+          </a>
+           /
+          <a target="_blank" href="https://www.linkedin.com/in/sara-steiert-b0a631134/">
+            
+>>>>>>> 0a45b18 (updated portfolio)
           </a>
         </div>
         <FlatButton labelStyle={{
