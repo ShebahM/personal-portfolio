@@ -63,31 +63,19 @@ class TimelineComponent extends Component {
               <p className="headline">Working experience</p>
                 <div className="timeline-entry">
                   <Card>
-                      <CardHeader title="Technology Consulting Analyst" subtitle="Accenture"/>
+                      <CardHeader title="DevOps Engineer" subtitle="Civil Service"/>
                       <CardText expandable={true}>
-                          October	2016 - October 2017. Development of Microservices, UX-Consulting.
+                          May 2024 - Present. Automates workflows, manages CI/CD, ensures scalable infrastructure.
                           <br/><br/>
                             <div className="timeline-entries">
                               <div className="timeline-entry-chip">
-                                <Chip>Angular 2</Chip>
+                                <Chip>Python</Chip>
                               </div>
                               <div className="timeline-entry-chip">
-                                <Chip>Docker</Chip>
+                                <Chip>Elastic</Chip>
                               </div>
                               <div className="timeline-entry-chip">
-                                <Chip>Jenkins</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>LESS</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>Java Spring</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>Foundation, Bootstrap</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>Confluence, JIRA</Chip>
+                                <Chip>Azure</Chip>
                               </div>
                             </div>
                       </CardText>
@@ -95,32 +83,26 @@ class TimelineComponent extends Component {
                 </div>
                   <div className="timeline-entry">
                     <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>
-                        <CardHeader title="Software Developer" subtitle="Testo	SE	&	Co.	KGaA"
+                        <CardHeader title="Cloud Developer" subtitle="Civil Service"
                           actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
-                            October	2016 - October 2017. Development of Microservices, UX-Consulting.
+                            August 2022 - May 2024. Builds, deploys, and scales applications on Aws.
                             <br/><br/>
                               <div className="timeline-entries">
                                 <div className="timeline-entry-chip">
-                                  <Chip>Angular 2</Chip>
+                                  <Chip>Python</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Docker</Chip>
+                                  <Chip>Cloud Formation</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Jenkins</Chip>
+                                  <Chip>Lambda</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>LESS</Chip>
+                                  <Chip>DynamoDB</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Java Spring</Chip>
-                                </div>
-                                <div className="timeline-entry-chip">
-                                  <Chip>Foundation, Bootstrap</Chip>
-                                </div>
-                                <div className="timeline-entry-chip">
-                                  <Chip>Confluence, JIRA</Chip>
+                                  <Chip>EC2</Chip>
                                 </div>
                               </div>
                         </CardText>
@@ -128,58 +110,35 @@ class TimelineComponent extends Component {
                   </div>
                   <div className="timeline-entry">
                   <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
-                      <CardHeader title="Student" subtitle="Testo	SE	&	Co.	KGaA"
+                      <CardHeader title="Junior Software Developer" subtitle="Civil Service"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
-                          October 2013 - September 2016. Bachelor of Science (Business Engineering), process automation and management, web and software development. Thesis: Integration of CRM and marketing automation with Hybris E-Commerce.
+                          August 2021 - August 2022. Intensive bootcamp teaching coding and software development skills.
 
                           <div className="timeline-entries">
                             <div className="timeline-entry-chip">
-                              <Chip>BPMN</Chip>
+                              <Chip>JavaScript</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>SharePoint</Chip>
+                              <Chip>React</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Nintex</Chip>
+                              <Chip>Node</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Marketo</Chip>
+                              <Chip>MongoDB</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Microsoft Dynamics</Chip>
+                              <Chip>HTML5</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Hybris</Chip>
-                            </div>
-                            <div className="timeline-entry-chip">
-                              <Chip>First Spirit</Chip>
+                              <Chip>CSS</Chip>
                             </div>
                           </div>
                       </CardText>
                   </Card>
                 </div>
-                <div className="timeline-entry">
-                  <Card expanded={this.state.expanded3} onExpandChange={this.handleExpandChange3}>
-                      <CardHeader title="Trainee" subtitle="Testo	Instruments	(Shenzhen)	Co.	Ltd"
-                        actAsExpander={true} showExpandableButton={true}/>
-                      <CardText expandable={true}>
-                          January	2015	-	March	2015. Installation of a quality management system according to ISO 9001 for the subsidiary in Shenzhen.
-
-                          <div className="timeline-entries">
-                            <div className="timeline-entry-chip">
-                              <Chip>Confluence</Chip>
-                            </div>
-                            <div className="timeline-entry-chip">
-                              <Chip>ISO 9001</Chip>
-                            </div>
-                            <div className="timeline-entry-chip">
-                              <Chip>BPMN</Chip>
-                            </div>
-                          </div>
-                      </CardText>
-                  </Card>
-                </div>
+               
             </div>
         );
     }

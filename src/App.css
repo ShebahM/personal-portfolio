@@ -55,7 +55,7 @@ p {
 }
 
 .section.colored {
-  background: #D8AB94;
+  background: rgba(255, 140, 0, 0.363);
   /* background: #EBEBEB; */
 }
 

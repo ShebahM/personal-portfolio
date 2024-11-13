@@ -29,7 +29,7 @@ class FooterComponent extends Component {
           </a>
            /
           <a target="_blank" href="https://www.linkedin.com/in/sara-steiert-b0a631134/">
-            LinkedIn
+            
           </a>
         </div>
         <FlatButton labelStyle={{

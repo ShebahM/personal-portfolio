@@ -7,15 +7,11 @@ class AgileComponent extends Component {
     render() {
         return (
           <div className="agile">
-              <p className="headline">Agile development</p>
+              <p className="headline">Junior Software Developer</p>
               <p className="text-justify">
-                Excellent results can be achieved through agility.
-                Therefore I try to empower the agile concept in any aspects of life.
-                I believe that brilliant software can only be achieved through constant feedback and an open mind.
-                Self-organization of teams triggers creativity.
-                <br /> <br />
-                Through working experience, I have become an expert on Scrum.
-                I have worked with JIRA, Confluence and classic tools like post-its.
+              Assisted in designing, coding, testing, and maintaining software applications. 
+              Worked on writing clean and efficient code, debugging issues, and collaborating with team members to improve software functionality. 
+              Familiar with basic programming languages like Python and JavaScript, while focusing on problem-solving, and version control (e.g., Git). 
               </p>
           </div>
         );
