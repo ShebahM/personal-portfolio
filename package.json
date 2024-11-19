@@ -1,14 +1,9 @@
 {
   "name": "personal-portfolio",
-  "homepage": "https://salomonelli.github.io/personal-portfolio",
+  "homepage": "https://shebahm.github.io/personal-portfolio/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.7.0",
-    "@fortawesome/free-brands-svg-icons": "^6.7.0",
-    "@fortawesome/free-regular-svg-icons": "^6.7.0",
-    "@fortawesome/free-solid-svg-icons": "^6.7.0",
-    "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/icons-material": "^6.1.6",
     "clone": "2.1.1",
     "howler": "2.0.3",
